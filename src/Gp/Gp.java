@@ -19,5 +19,7 @@ public class Gp {
         graph.addEdge(2.0,"Cráudio", "Lorenzo");
         graph.addEdge(2.0,"Cráudio", "João");
 
+        System.out.println("Fim");
+
     }
 }
