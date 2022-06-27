@@ -29,4 +29,20 @@ public class Vertex<TYPE> {
     public void addExitEdge( Edge<TYPE> edge) {
         this.exitEdges.add(edge);
     }
+
+    public ArrayList<Edge<TYPE>> getInputEdges() {
+        return inputEdges;
+    }
+
+    public void setInputEdges(ArrayList<Edge<TYPE>> inputEdges) {
+        this.inputEdges = inputEdges;
+    }
+
+    public ArrayList<Edge<TYPE>> getExitEdges() {
+        return exitEdges;
+    }
+
+    public void setExitEdges(ArrayList<Edge<TYPE>> exitEdges) {
+        this.exitEdges = exitEdges;
+    }
 }

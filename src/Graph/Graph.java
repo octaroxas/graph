@@ -3,6 +3,8 @@ package Graph;
 import Edge.Edge;
 import Vertex.Vertex;
 
+import javax.swing.plaf.basic.BasicSplitPaneUI;
+import java.sql.BatchUpdateException;
 import java.util.ArrayList;
 
 public class Graph<TYPE> {
@@ -41,5 +43,33 @@ public class Graph<TYPE> {
            }
         }
         return vertexSeeked;
+    }
+
+    public void breadthSearch() {
+        ArrayList<Vertex<TYPE>> marked = new ArrayList<Vertex<TYPE>>();
+        ArrayList<Vertex<TYPE>> fila = new ArrayList<Vertex<TYPE>>();
+
+        Vertex<TYPE> current = this.vertex.get(0);
+
+        marked.add(current);
+
+        System.out.println(current.getData());
+
+        fila.add(current);
+
+        while (fila.size() > 0) {
+            Vertex<TYPE> visited = fila.get(0);
+            for(int i = 0; i < visited.getExitEdges().size(); i++){
+                Vertex<TYPE> next = visited.getExitEdges().get(i).getEnd();
+
+                if(!marked.contains(next)){
+                    marked.add(next);
+                    System.out.println(next.getData());
+                    fila.add(next);
+                }
+            }
+            fila.remove(0);
+        }
+
     }
 }
