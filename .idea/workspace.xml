@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb30194-cbf7-4400-8cfe-e7c3222491f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph.iml" afterDir="false" />
+    <list default="true" id="9fb30194-cbf7-4400-8cfe-e7c3222491f7" name="Changes" comment="Projeto disponibilizado pelo Prof. Efren (Uso Obrigatório)">
+      <change afterPath="$PROJECT_DIR$/input/cormen_22.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/cormen_22.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/cormen_22.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/cormen_22.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/cormen_22.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/cormen_23.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/cormen_24.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/cormen_24.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/cormen_24.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/AdjacencyListGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/adjacencylist/AdjacencyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/adjacencylist/AdjacencyListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/AdjacencyListGraphTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/AdjacencyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gp/Gp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vertex/Vertex.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +37,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -39,10 +59,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "Console"
   }
 }]]></component>
   <component name="RunManager">
@@ -73,7 +94,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656292304842</updated>
+      <workItem from="1656533518895" duration="325000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projeto disponibilizado pelo Prof. Efren (Uso Obrigatório)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto disponibilizado pelo Prof. Efren (Uso Obrigatório)" />
   </component>
 </project>
