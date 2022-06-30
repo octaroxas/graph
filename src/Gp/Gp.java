@@ -7,17 +7,16 @@ public class Gp {
         Graph<String> graph = new Graph<String>();
 
         graph.addVertex("João");
-        graph.addVertex("Lorenzo");
-        graph.addVertex("Creuza");
-        graph.addVertex("Créber");
-        graph.addVertex("Cráudio");
+        graph.addVertex("Octa");
+        graph.addVertex("Luiz");
+        graph.addVertex("Marcos");
+        graph.addVertex("Kelly");
 
-        graph.addEdge(2.0,"João", "Lorenzo");
-        graph.addEdge(2.0,"Lorenzo", "Créber");
-        graph.addEdge(2.0,"Créber", "Creuza");
-        graph.addEdge(2.0,"João", "Creuza");
-        graph.addEdge(2.0,"Cráudio", "Lorenzo");
-        graph.addEdge(2.0,"Cráudio", "João");
+        graph.addEdge(2.0,"João", "Kelly");
+        graph.addEdge(2.0,"Marcos", "Kelly");
+        graph.addEdge(2.0,"Luiz", "Octa");
+        graph.addEdge(2.0,"João", "Marcos");
+        graph.addEdge(2.0,"Luiz", "Kelly");
 
         graph.breadthSearch();
         System.out.println("Fim");

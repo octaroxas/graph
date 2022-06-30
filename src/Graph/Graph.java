@@ -50,11 +50,8 @@ public class Graph<TYPE> {
         ArrayList<Vertex<TYPE>> fila = new ArrayList<Vertex<TYPE>>();
 
         Vertex<TYPE> current = this.vertex.get(0);
-
         marked.add(current);
-
         System.out.println(current.getData());
-
         fila.add(current);
 
         while (fila.size() > 0) {
@@ -70,6 +67,5 @@ public class Graph<TYPE> {
             }
             fila.remove(0);
         }
-
     }
 }
