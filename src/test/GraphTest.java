@@ -18,6 +18,8 @@ public class GraphTest {
                 false
         );
 
+        Prim prim = new Prim();
+
         Vertex v1 = new Vertex("Octacilio");
         Vertex v2 = new Vertex("Lucas");
         Vertex v3 = new Vertex("Jorge");
@@ -34,15 +36,15 @@ public class GraphTest {
         graph.addVertex(v3);
         graph.addVertex(v4);
 
-        Prim prim = new Prim();
-        prim.intializeGraphValues(graph);
-        prim.listVertexValues(graph);
+        System.out.println("Grafo gerado");
+
+        prim.primMethod(graph, graph.vertexAt(0));
 
 //        for(Vertex v: graph.vertices()) {
 //            System.out.println(v.getName());
 //        }
 
-        System.out.println("Grafo gerado");
+
 
 
 

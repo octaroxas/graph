@@ -18,14 +18,17 @@ public class Prim {
 
     }
 
-    public void primMethod(Graph graph) {
+    public void primMethod(Graph graph, Vertex root) {
         //inicializar os valores do pesos do grafo com infinito e predecossor nulo
-
+        Graph g = graph;
+        intializeGraphValues(g);
+        listVertexValues(g);
+        System.out.println("Root key:"+root.getData().getKey()+" Root pi:"+root.getData().getPi());
 
     }
 
     public void listVertexValues(Graph g){
-        System.out.println("Valores do grafo inicializado \n");
+        System.out.println("Valores do grafo inicializado!");
         for (Vertex v: g.vertices()){
             System.out.println("Key: "+v.getData().getKey()+", PI: "+v.getData().getPi());
         }
