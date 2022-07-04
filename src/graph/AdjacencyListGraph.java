@@ -32,14 +32,14 @@ public class AdjacencyListGraph extends Graph {
 	@Override
 	public Vertex addVertex(Vertex v) {
 		if (numberOfVertices == adj.length)
-			throw new RuntimeException("O grafo está cheio");
+			throw new RuntimeException("O grafo estï¿½ cheio");
 		if ( !v.isIndexed() ) 
 			v.setIndex(numberOfVertices);
 		if (adj[v.index()] != null) {
 			if (adj[v.index()].getOwnerVertex() == v)
-				throw new RuntimeException("Este vértice já existe no grafo");
+				throw new RuntimeException("Este vï¿½rtice jï¿½ existe no grafo");
 			else
-				throw new RuntimeException("O índice deste vértice já está ocupado por outro vértice neste grafo");
+				throw new RuntimeException("O ï¿½ndice deste vï¿½rtice jï¿½ estï¿½ ocupado por outro vï¿½rtice neste grafo");
 		}
 		adj[v.index()] = new AdjacencyList(v);
 		numberOfVertices++;
@@ -61,7 +61,7 @@ public class AdjacencyListGraph extends Graph {
 		Vertex u = edge.u;
 		Vertex v = edge.v;
 		if ( !contaisVertex(u) || !contaisVertex(v) )
-			throw new RuntimeException("Algum dos vértices da aresta " + edge + " não está no grafo");
+			throw new RuntimeException("Algum dos vï¿½rtices da aresta " + edge + " nï¿½o estï¿½ no grafo");
 
 		adj[index(u)].addEdge(edge);
 		if (!edge.isDirected()) {
@@ -114,7 +114,7 @@ public class AdjacencyListGraph extends Graph {
 		int maxEdges = (numberOfVertices*numberOfVertices-numberOfVertices)/2;
 		int minEdges = numberOfVertices - 1;
 		if (numberOfEdges > maxEdges)
-			throw new RuntimeException("A quantidade de arestas não pode ser maior que (V^2-V)/2");
+			throw new RuntimeException("A quantidade de arestas nï¿½o pode ser maior que (V^2-V)/2");
 		if (numberOfEdges < minEdges)
 			throw new RuntimeException("A quantidade de arestas deve ser pelo menos V-1");
 		
@@ -144,7 +144,7 @@ public class AdjacencyListGraph extends Graph {
 	public static AdjacencyListGraph randomGraph(int numberOfVertices, int numberOfEdges, boolean directed) {
 		int maxEdges = directed ? (numberOfVertices*numberOfVertices) : ((numberOfVertices*numberOfVertices-numberOfVertices)/2);
 		if (numberOfEdges > maxEdges)
-			throw new RuntimeException("A quantidade de arestas especificada supera o máximo permitido");
+			throw new RuntimeException("A quantidade de arestas especificada supera o mï¿½ximo permitido");
 		AdjacencyListGraph g  = new AdjacencyListGraph(numberOfVertices);
 		for(int i=0; i<numberOfVertices; i++)
 			g.addVertex( new Vertex(String.valueOf(i)) );

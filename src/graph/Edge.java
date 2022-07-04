@@ -11,7 +11,7 @@ public class Edge implements Comparable<Edge> {
 	
 	public Edge(Vertex u, Vertex v, double w, boolean directed) {
 		if ( !directed && u == v)
-			throw new RuntimeException("Em uma aresta não direcionada u deve ser diferente de v");
+			throw new RuntimeException("Em uma aresta nï¿½o direcionada u deve ser diferente de v");
 		this.u = u;
 		this.v = v;
 		this.weight = w;
@@ -42,15 +42,15 @@ public class Edge implements Comparable<Edge> {
 		
 	public double weight() {
 		if (!isWeighted())
-			throw new RuntimeException("Esta aresta não é ponderada");
+			throw new RuntimeException("Esta aresta nï¿½o ï¿½ ponderada");
 		return weight;
 	}
 	
 	public void setWeight(double weight) {
 		if (!isWeighted())
-			throw new RuntimeException("Esta aresta não é ponderada");
+			throw new RuntimeException("Esta aresta nï¿½o ï¿½ ponderada");
 		if (weight == Double.NaN)
-			throw new RuntimeException("Peso inválido!");
+			throw new RuntimeException("Peso invï¿½lido!");
 		this.weight = weight;
 		if (reverse != null)
 			reverse.weight = weight;		

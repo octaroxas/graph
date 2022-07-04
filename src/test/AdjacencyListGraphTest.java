@@ -15,10 +15,10 @@ public class AdjacencyListGraphTest {
 		//Graph g = AdjacencyListGraph.randomConnectedUndirectedGraph(4, 4);
 		
 		System.out.println("Graph (Fig-23.1 Pag-625)");		
-		System.out.println("Número de vertices: " + g.numberOfVertices() );
-		System.out.println("Número de arestas: " + g.numberOfEdges());
+		System.out.println("Numero de vertices: " + g.numberOfVertices() );
+		System.out.println("Numero de arestas: " + g.numberOfEdges());
 
-		System.out.println("\nVértices");
+		System.out.println("\nVertices");
 		List<Vertex> vertices = new LinkedList<>();
 		for( Vertex u: g.vertices() ) {
 			vertices.add(u);
@@ -26,7 +26,7 @@ public class AdjacencyListGraphTest {
 		}
 		System.out.println();
 
-		System.out.println("\nVértices Adjacentes");
+		System.out.println("\nVertices Adjacentes");
 		for( Vertex u: g.vertices() ) {
 			System.out.print(u + ":");
 			for( Vertex v: g.adjacentVertices(u) )
@@ -34,7 +34,7 @@ public class AdjacencyListGraphTest {
 			System.out.println();
 		}
 
-		System.out.println("\nArestas que incidem do vértice");
+		System.out.println("\nArestas que incidem do vertice");
 		for( Vertex u: g.vertices() ) {
 			System.out.print(u + ":");
 			for( Edge e: g.edgesIncidentFrom(u) )
@@ -49,7 +49,7 @@ public class AdjacencyListGraphTest {
 		System.out.println("\nAresta Existe?");
 		System.out.println( g.contaisEdge( vertices.get(0), vertices.get(1) ) );
 
-		System.out.println("\nRepresentação textual do grafo");
+		System.out.println("\nRepresentacao textual do grafo");
 		System.out.println(g);
 		
 		/*Graph g = new AdjacencyListGraph(5);

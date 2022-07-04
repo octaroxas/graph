@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fb30194-cbf7-4400-8cfe-e7c3222491f7" name="Changes" comment="Projeto disponibilizado pelo Prof. Efren (Uso Obrigatório)">
-      <change afterPath="$PROJECT_DIR$/input/cormen_22.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/cormen_22.2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/cormen_22.3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/cormen_22.4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/cormen_22.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/cormen_23.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/cormen_24.4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/cormen_24.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/cormen_24.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/AdjacencyListGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/adjacencylist/AdjacencyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/adjacencylist/AdjacencyListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/AdjacencyListGraphTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/AdjacencyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edge/Edge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gp/Gp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vertex/Vertex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/AdjacencyListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/AdjacencyListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/AdjacencyListGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AdjacencyListGraphTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,18 +39,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Console"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.GraphTest">
+    <configuration name="AdjacencyListGraphTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.AdjacencyListGraphTest" />
+      <module name="Graph" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdjacencyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.AdjacencyListTest" />
+      <module name="Graph" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Gp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Gp.Gp" />
       <module name="Graph" />
@@ -80,8 +90,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GraphTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.GraphTest" />
+      <module name="Graph" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphTest" />
+        <item itemvalue="Application.AdjacencyListGraphTest" />
+        <item itemvalue="Application.AdjacencyListTest" />
         <item itemvalue="Application.Gp" />
       </list>
     </recent_temporary>
@@ -115,5 +141,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projeto disponibilizado pelo Prof. Efren (Uso Obrigatório)" />
     <option name="LAST_COMMIT_MESSAGE" value="Projeto disponibilizado pelo Prof. Efren (Uso Obrigatório)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/GraphTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

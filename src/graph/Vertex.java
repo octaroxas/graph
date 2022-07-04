@@ -3,10 +3,11 @@ package graph;
 public class Vertex implements Comparable<Vertex> {
 	public static final int NO_INDEXED = -1;
 	protected String name;
-	protected Object data; //Poderia usar buckets para adicionar quaisquer grupo de dados
+//	protected Object data; //Poderia usar buckets para adicionar quaisquer grupo de dados
+	protected  DataVertice data;
 	private int index;
 	
-	public Vertex(String name, Object data ) {
+	public Vertex(String name, DataVertice data ) {
 		this.name = name;
 		this.data = data;
 		this.index = NO_INDEXED;
@@ -24,11 +25,11 @@ public class Vertex implements Comparable<Vertex> {
 		return name;
 	}
 	
-	public void setData(Object data) {
+	public void setData(DataVertice data) {
 		this.data = data;
 	}
 	
-	public Object getData() {
+	public DataVertice getData() {
 		return data;
 	}
 	
@@ -42,9 +43,9 @@ public class Vertex implements Comparable<Vertex> {
 	
 	public void setIndex(int i) {
 		if (i < 0)
-			throw new RuntimeException("O índice deve ser maior ou igual a zero!");
+			throw new RuntimeException("O ï¿½ndice deve ser maior ou igual a zero!");
 		if ( isIndexed() )
-			throw new RuntimeException("Este vértice já está indexado, ele deve ser usado sempre neste índice para evitar problemas de indexação quando usado em vários grafos!");
+			throw new RuntimeException("Este vï¿½rtice jï¿½ estï¿½ indexado, ele deve ser usado sempre neste ï¿½ndice para evitar problemas de indexaï¿½ï¿½o quando usado em vï¿½rios grafos!");
 		index = i;
 	}
 
